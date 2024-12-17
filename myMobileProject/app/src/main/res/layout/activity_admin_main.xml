@@ -1,27 +1,46 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
-
-    <EditText
-        android:id="@+id/etAdminUsername"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Admin Username"
-        android:minHeight="48dp" />
-
-    <EditText
-        android:id="@+id/etAdminPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Admin Password"
-        android:inputType="textPassword"
-        android:minHeight="48dp" />
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#000000">
 
     <Button
-        android:id="@+id/btnAdminLogin"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnViewUsers"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login" />
+        android:text="View Users"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnManageCategories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Categories"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnManageProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Products"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="@android:color/white" />
+
 </LinearLayout>

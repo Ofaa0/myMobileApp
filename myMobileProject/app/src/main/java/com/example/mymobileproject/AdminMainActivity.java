@@ -9,7 +9,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class AdminMainActivity extends AppCompatActivity {
 
-    private Button btnViewUsers, btnManageCategories, btnManageProducts, btnLogout;
+    private Button btnViewUsers;
+    private Button btnManageCategories, btnManageProducts, btnLogout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
