@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvProductPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: $0.00"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qty: 1"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btnIncrease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/btnDecrease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/btnRemove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remove"
+            android:layout_marginStart="16dp" />
+    </LinearLayout>
+</LinearLayout>
